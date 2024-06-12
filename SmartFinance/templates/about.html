@@ -1,0 +1,140 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<main id="main">
+
+  <!-- ======= About Us Section ======= -->
+  <section id="about" class="about">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="image">
+            <img src=" {% static 'assets/img/about.jpg' %} " class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="content pt-4 pt-lg-0 pl-0 pl-lg-3 ">
+            <h3>provide a clear idea of expenses and income, and allows the organization to forecast finances, identify cost-cutting opportunities, and identify growth opportunities.</h3>
+            <p class="fst-italic">
+              This  System is a centralized source of curated, continuously updated, fully downloadable data and information on humanitarian funding flows.
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i> It is easy to maintain.</li>
+              <li><i class="bx bx-check-double"></i> It is user-friendly.</li>
+              <li><i class="bx bx-check-double"></i>This system helps in tracking the expenses of an organization.</li>
+            </ul>
+            <p>
+              It will help organizations forecast their finances, identify cost-cutting opportunities, and identify growth opportunities
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Us Section -->
+
+  <!-- ======= Featured Section ======= -->
+  <section id="featured" class="featured">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="tab-content">
+            <div class="tab-pane active show" id="tab-1">
+              <figure>
+                <img src="{% static 'assets/img/featured-1.png' %}" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="tab-pane" id="tab-2">
+              <figure>
+                <img src="{% static 'assets/img/featured-2.png' %}" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="tab-pane" id="tab-3">
+              <figure>
+                <img src="{% static 'assets/img/featured-3.png' %}" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="tab-pane" id="tab-4">
+              <figure>
+                <img src="{% static 'assets/img/featured-4.png' %}" alt="" class="img-fluid">
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
+          <ul class="nav nav-tabs flex-column">
+            <li class="nav-item">
+              <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+                <h4>Manage expenses</h4>
+                <p>Easily follow expense records across the entire team to keep an eye on costs and ensure they keep on target and within budget.</p>
+              </a>
+            </li>
+            <li class="nav-item mt-2">
+              <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+                <h4>Add narration</h4>
+                <p>Write narration to expense records to add information</p>
+              </a>
+            </li>
+            <li class="nav-item mt-2">
+              <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+                <h4>ideal for freelancers</h4>
+                <p> this system is ideal for freelancers who wish to keep track of their expenses and manage their taxes.</p>
+              </a>
+            </li>
+            <li class="nav-item mt-2">
+              <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+                <h4>Save time on expense reports</h4>
+                <p>Whether it's travel expenses, office supplies, or any other employee expenditure, access all receipts and expense submissions from your Expenses dashboard and create them</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Featured Section -->
+
+
+ 
+          <!-- Button trigger modal -->
+          
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <!-- ------------------------TESTING------------------------------- -->
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+{% endblock %}
