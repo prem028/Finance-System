@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <main id="main">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <ul class="faq-list">
+
+          <li data-aos="fade-up">
+            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Can I create a billable expense without adding a customer?   <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Yes, you are able to create a billable expense without adding a customer.
+                 
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="100">
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Why do I need expense categories?<i class="bx bx-chevron-down icon-show"></i><i
+                class="bx bx-x icon-close"></i></a>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Expense Categories help you to categorise your expenses and explain the nature of your expenses.
+                 Based on why and how you’ve incurred an expense, you can associate an expense category with it.
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="200">
+            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">Can I set up special rules for some categories?<i class="bx bx-chevron-down icon-show"></i><i
+                class="bx bx-x icon-close"></i></a>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                General rules by default, will apply to all expense categories of particular policy. However, 
+                it can be changed for individual categories by overriding the default settings.
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="300">
+            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Can I delete my priviou expense? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                yes ,if you want .
+              </p>
+            </div>
+          </li>
+
+
+          <li data-aos="fade-up" data-aos-delay="500">
+            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">How to generate a PDF report of my transactions? <i class="bx bx-chevron-down icon-show"></i><i
+                class="bx bx-x icon-close"></i></a>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                there is  the option on top of the all expense page where you are clek all data which you add all product price bill generated. 
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    
+
+    <!-- End Frequently Asked Questions Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  {% endblock %}
